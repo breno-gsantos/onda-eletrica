@@ -1,4 +1,4 @@
-import { AlertTriangle, Award, Camera, CheckCircle, CheckCircle2, Clock, DoorOpen, FileText, LayoutGrid, MessageSquare, Search, Settings, Shield, ShieldCheck, Sun, Users, Video, Wind, Zap } from "lucide-react"
+import { AlertTriangle, Award, BadgeCheck, Camera, CheckCircle, CheckCircle2, ClipboardCheck, Clock, DoorOpen, FileText, LayoutGrid, MessageSquare, Search, Settings, Shield, ShieldCheck, Shirt, Sparkles, Sun, Users, Video, Wind, Zap } from "lucide-react"
 
 export const navItems = [
   { label: "Início", href: "#inicio" },
@@ -188,5 +188,89 @@ export const steps = [
     description:
       "Receba o relatório completo com fotos, vídeo do serviço e certificado de conclusão.",
     color: "#27B6FF",
+  },
+]
+
+export const standards = [
+  {
+    icon: Shirt,
+    title: "Uniforme Completo",
+    description: "Técnicos sempre uniformizados com vestimenta padrão da empresa.",
+  },
+  {
+    icon: BadgeCheck,
+    title: "Identificação Visível",
+    description: "Crachá com foto, nome e registro profissional em destaque.",
+  },
+  {
+    icon: Video,
+    title: "Body Cam Ativo",
+    description: "Gravação completa do serviço do início ao fim.",
+  },
+  {
+    icon: ClipboardCheck,
+    title: "Checklist de Qualidade",
+    description: "Verificação ponto a ponto de todos os procedimentos.",
+  },
+  {
+    icon: CheckCircle,
+    title: "Validação Final",
+    description: "Teste e conferência junto ao cliente antes da conclusão.",
+  },
+  {
+    icon: Sparkles,
+    title: "Organização Pós-Serviço",
+    description: "Limpeza completa do local após finalizar o trabalho.",
+  },
+]
+
+export const testimonials = [
+  {
+    name: "Carlos Silva",
+    location: "Jardim América",
+    service: "Instalação Elétrica Residencial",
+    rating: 5,
+    text: "Impressionante! A transparência com a body cam me deixou muito mais seguro. Vi exatamente o que foi feito na instalação do meu quadro elétrico. Recomendo demais!",
+    avatar: "CS",
+  },
+  {
+    name: "Maria Fernanda",
+    location: "Centro",
+    service: "Emergência 24h",
+    rating: 5,
+    text: "Chamei às 2h da madrugada por um curto-circuito e em menos de 40 minutos o técnico estava aqui. Profissionalismo impecável, mesmo de madrugada.",
+    avatar: "MF",
+  },
+  {
+    name: "Roberto Mendes",
+    location: "Vila Industrial",
+    service: "Sistema de Câmeras",
+    rating: 5,
+    text: "Instalaram 8 câmeras na minha empresa com perfeição. O melhor foi receber o vídeo completo do serviço depois. Nunca vi isso em nenhuma outra empresa.",
+    avatar: "RM",
+  },
+  {
+    name: "Ana Paula Costa",
+    location: "Residencial dos Lagos",
+    service: "Energia Solar",
+    rating: 5,
+    text: "Projeto solar completo com acompanhamento do início ao fim. A equipe é super técnica e explicou cada detalhe. Já estou economizando na conta de luz!",
+    avatar: "AC",
+  },
+  {
+    name: "Fernando Oliveira",
+    location: "Parque das Nações",
+    service: "Automação Residencial",
+    rating: 5,
+    text: "Transformaram minha casa! Agora controlo tudo pelo celular. O atendimento foi nota 10 e o uniforme da equipe passou muita credibilidade.",
+    avatar: "FO",
+  },
+  {
+    name: "Juliana Santos",
+    location: "Alto da Boa Vista",
+    service: "Manutenção Preventiva",
+    rating: 5,
+    text: "Fizeram a manutenção completa da parte elétrica da minha casa. Encontraram problemas que eu nem sabia que existiam. Super profissionais!",
+    avatar: "JS",
   },
 ]
